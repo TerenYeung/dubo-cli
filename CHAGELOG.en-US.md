@@ -1,3 +1,9 @@
+## 1.0.2
+
+`2019-05-16`
+
+- 🐞 Fixed up Fixed up bug that pages and components don't exist when initializing template.
+
 ## 1.0.1
 
 `2019-05-16`
