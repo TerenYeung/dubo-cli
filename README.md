@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<h1 align="center">Dubo CLI</h1>
+<!-- <h1 align="center">Dubo CLI</h1> -->
 
 <div align="center">
 
