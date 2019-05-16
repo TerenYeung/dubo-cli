@@ -1,6 +1,6 @@
 <p align="center">
   <a href="http://ant.design">
-    <img width="200" src="./assets/dubo-cli.svg">
+    <img width="400" src="./assets/dubo-cli.svg">
   </a>
 </p>
 
