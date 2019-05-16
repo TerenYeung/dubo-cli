@@ -1,0 +1,35 @@
+{
+  "name": "dubo-cli",
+  "version": "1.0.0",
+  "description": "Dubo CLI is the Standard Tooling for Mobile Web Development.",
+  "main": "index.js",
+  "bin": "bin/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TerenYeung/dubo-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "h5",
+    "boilerplate",
+    "webpack",
+    "react",
+    "vue",
+    "scss",
+    "less"
+  ],
+  "author": "terenyeung@gmail.com",
+  "license": "Anti 996",
+  "bugs": {
+    "url": "https://github.com/TerenYeung/dubo-cli/issues"
+  },
+  "homepage": "https://github.com/TerenYeung/dubo-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "figlet": "^1.2.1",
+    "inquirer": "^6.3.1",
+    "ora": "^3.4.0"
+  }
+}

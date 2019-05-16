@@ -1,0 +1,3536 @@
+{
+  "zh-CN": {
+    "charset": "utf-8",
+    "headers": {
+      "mime-version": "1.0",
+      "content-type": "text/plain; charset=UTF-8",
+      "content-transfer-encoding": "8bit",
+      "x-generator": "POEditor.com",
+      "project-id-version": "joyrun-match-enrollment",
+      "language": "zh-CN"
+    },
+    "translations": {
+      "": {
+        "": {
+          "msgid": "",
+          "msgstr": [
+            "MIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Generator: POEditor.com\nProject-Id-Version: joyrun-match-enrollment\nLanguage: zh-CN\n"
+          ]
+        },
+        "收起": {
+          "msgid": "收起",
+          "comments": {
+            "reference": "src/components/@shared/EllipseText/index.tsx:34"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "展开全部": {
+          "msgid": "展开全部",
+          "comments": {
+            "reference": "src/components/@shared/EllipseText/index.tsx:34"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "请选择": {
+          "msgid": "请选择",
+          "comments": {
+            "reference": "src/components/@shared/FormField/index.tsx:50"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "比赛进度": {
+          "msgid": "比赛进度",
+          "comments": {
+            "reference": "src/components/MatchInfo/index.tsx:42"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "开始报名": {
+          "msgid": "开始报名",
+          "comments": {
+            "reference": "src/components/MatchInfo/index.tsx:46"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "4月21日": {
+          "msgid": "4月21日",
+          "comments": {
+            "reference": "src/components/MatchInfo/index.tsx:46\nsrc/components/MatchInfo/index.tsx:47\nsrc/components/MatchInfo/index.tsx:48"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "报名截止": {
+          "msgid": "报名截止",
+          "comments": {
+            "reference": "src/components/MatchInfo/index.tsx:47"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "比赛日期": {
+          "msgid": "比赛日期",
+          "comments": {
+            "reference": "src/components/MatchInfo/index.tsx:48"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "竞赛规则": {
+          "msgid": "竞赛规则",
+          "comments": {
+            "reference": "src/components/MatchInfo/index.tsx:54"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "报名须知": {
+          "msgid": "报名须知",
+          "comments": {
+            "reference": "src/components/MatchInfo/index.tsx:59\nsrc/pages/ApplyDetail/index.tsx:235"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "查看所有评论": {
+          "msgid": "查看所有评论",
+          "comments": {
+            "reference": "src/components/MatchRemark/index.tsx:100"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "编辑报名卡": {
+          "msgid": "编辑报名卡",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:32"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "添加报名卡": {
+          "msgid": "添加报名卡",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:32"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "编辑成功": {
+          "msgid": "编辑成功",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:73"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "添加成功": {
+          "msgid": "添加成功",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:76"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "姓名不能为空": {
+          "msgid": "姓名不能为空",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:90\nsrc/pages/ParticipatorInfo/index.tsx:55"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "姓名长度超过 20 个限制": {
+          "msgid": "姓名长度超过 20 个限制",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:93\nsrc/pages/ParticipatorInfo/index.tsx:58"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "请正确输入15或者18位的证件号码": {
+          "msgid": "请正确输入15或者18位的证件号码",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:102\nsrc/pages/ParticipatorInfo/index.tsx:67"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "请输入9位有效的港澳居民来往内地通行证": {
+          "msgid": "请输入9位有效的港澳居民来往内地通行证",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:107\nsrc/pages/ParticipatorInfo/index.tsx:72"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "请输入8位有效的台湾居民来往大陆通行证号码": {
+          "msgid": "请输入8位有效的台湾居民来往大陆通行证号码",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:112\nsrc/pages/ParticipatorInfo/index.tsx:77"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "请输入有效的护照号码": {
+          "msgid": "请输入有效的护照号码",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:117\nsrc/pages/ParticipatorInfo/index.tsx:82"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "请输入有效电子邮箱": {
+          "msgid": "请输入有效电子邮箱",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:126\nsrc/pages/ParticipatorInfo/index.tsx:91"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "手机号码不能为空": {
+          "msgid": "手机号码不能为空",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:133\nsrc/pages/ParticipatorInfo/index.tsx:98"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "请输入正确格式的手机号码": {
+          "msgid": "请输入正确格式的手机号码",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:139\nsrc/pages/ApplyCard/index.tsx:148\nsrc/pages/ParticipatorInfo/index.tsx:104\nsrc/pages/ParticipatorInfo/index.tsx:113"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "请选择出生日期": {
+          "msgid": "请选择出生日期",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:244"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "删除": {
+          "msgid": "删除",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:435"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "保存": {
+          "msgid": "保存",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:436"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "选择参赛者": {
+          "msgid": "选择参赛者",
+          "comments": {
+            "reference": "src/pages/ApplyCardList/index.tsx:27\nsrc/pages/ApplyDetail/index.tsx:219"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "暂无报名卡": {
+          "msgid": "暂无报名卡",
+          "comments": {
+            "reference": "src/pages/ApplyCardList/index.tsx:46"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "添加悦跑赛事快速报名卡资料，通过悦跑圈报名的赛事一概无需重复填写个人信息": {
+          "msgid": "添加悦跑赛事快速报名卡资料，通过悦跑圈报名的赛事一概无需重复填写个人信息",
+          "comments": {
+            "reference": "src/pages/ApplyCardList/index.tsx:49"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "添加新的报名卡": {
+          "msgid": "添加新的报名卡",
+          "comments": {
+            "reference": "src/pages/ApplyCardList/index.tsx:54\nsrc/pages/ApplyCardList/index.tsx:116"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "本人": {
+          "msgid": "本人",
+          "comments": {
+            "reference": "src/pages/ApplyCardList/index.tsx:75"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "身份证": {
+          "msgid": "身份证",
+          "comments": {
+            "reference": "src/pages/ApplyCardList/index.tsx:77\nsrc/pages/ApplyCardList/index.tsx:101"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "护照": {
+          "msgid": "护照",
+          "comments": {
+            "reference": "src/pages/ApplyCardList/index.tsx:77\nsrc/pages/ApplyCardList/index.tsx:101"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "其他参赛者报名卡": {
+          "msgid": "其他参赛者报名卡",
+          "comments": {
+            "reference": "src/pages/ApplyCardList/index.tsx:90"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "比赛报名": {
+          "msgid": "比赛报名",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:35"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "选择参赛项目": {
+          "msgid": "选择参赛项目",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:83"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "公里": {
+          "msgid": "公里",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:99\nsrc/pages/MatchDetail/index.tsx:203"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "开跑": {
+          "msgid": "开跑",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:100\nsrc/pages/MatchDetail/index.tsx:204"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "已报满": {
+          "msgid": "已报满",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:110"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "自选服务": {
+          "msgid": "自选服务",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:141\nsrc/pages/OrderDetail/index.tsx:125"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "库存不足": {
+          "msgid": "库存不足",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:178\nsrc/pages/ApplyDetail/index.tsx:287"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "参赛者信息": {
+          "msgid": "参赛者信息",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:197\nsrc/pages/OrderDetail/index.tsx:168"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "我已阅读并接受": {
+          "msgid": "我已阅读并接受",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:251"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "《平台服务协议》": {
+          "msgid": "《平台服务协议》",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:255"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "每人限购 %d 份": {
+          "msgid": "每人限购 %d 份",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:284"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "请添加参赛者信息": {
+          "msgid": "请添加参赛者信息",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:305"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "请选择一项参赛项目": {
+          "msgid": "请选择一项参赛项目",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:309"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "请阅读并接受《平台服务协议》": {
+          "msgid": "请阅读并接受《平台服务协议》",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:313"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "合计：": {
+          "msgid": "合计：",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:343\nsrc/pages/OrderInfo/index.tsx:103"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "立即支付": {
+          "msgid": "立即支付",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:345\nsrc/pages/OrderInfo/index.tsx:105"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "热评": {
+          "msgid": "热评",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:41"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "详情": {
+          "msgid": "详情",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:45"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "我跑过": {
+          "msgid": "我跑过",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:162"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "有 %s 人跑过": {
+          "msgid": "有 %s 人跑过",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:173"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "官方网站：": {
+          "msgid": "官方网站：",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:181"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "比赛项目": {
+          "msgid": "比赛项目",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:196\nsrc/pages/OrderDetail/index.tsx:109\nsrc/pages/OrderInfo/index.tsx:85"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "已报名": {
+          "msgid": "已报名",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:264"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "想跑": {
+          "msgid": "想跑",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:270"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "一键报名": {
+          "msgid": "一键报名",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:274"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "报名已满": {
+          "msgid": "报名已满",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:314"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "立即报名": {
+          "msgid": "立即报名",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:315"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "已经报名": {
+          "msgid": "已经报名",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:316"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "订单详情": {
+          "msgid": "订单详情",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:39"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "请在 %s 前完成支付，超时订单将失效哦": {
+          "msgid": "请在 %s 前完成支付，超时订单将失效哦",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:75"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "去支付": {
+          "msgid": "去支付",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:77\nsrc/pages/OrderList/index.tsx:89"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "取消订单": {
+          "msgid": "取消订单",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:78"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "订单编号：": {
+          "msgid": "订单编号：",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:83"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "项目与服务": {
+          "msgid": "项目与服务",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:104"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "比赛时间：": {
+          "msgid": "比赛时间：",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:106\nsrc/pages/OrderList/index.tsx:69"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "合计": {
+          "msgid": "合计",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:148"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "订单信息": {
+          "msgid": "订单信息",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:193"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "订单编号": {
+          "msgid": "订单编号",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:198"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "订单时间": {
+          "msgid": "订单时间",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:202"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "订单类型": {
+          "msgid": "订单类型",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:206"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "该赛事不支持退款": {
+          "msgid": "该赛事不支持退款",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:225"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "该赛事不可转让名额": {
+          "msgid": "该赛事不可转让名额",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:233"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "删除订单": {
+          "msgid": "删除订单",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:244"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "订单取消成功": {
+          "msgid": "订单取消成功",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:256"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "订单删除操作": {
+          "msgid": "订单删除操作",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:267"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "订单删除后将不可恢复": {
+          "msgid": "订单删除后将不可恢复",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:267"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "取消": {
+          "msgid": "取消",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:269"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "确定": {
+          "msgid": "确定",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:273\nsrc/pages/ParticipatorInfo/index.tsx:249"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "确认报名信息": {
+          "msgid": "确认报名信息",
+          "comments": {
+            "reference": "src/pages/OrderInfo/index.tsx:25"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "报名卡": {
+          "msgid": "报名卡",
+          "comments": {
+            "reference": "src/pages/OrderInfo/index.tsx:37"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "报名": {
+          "msgid": "报名",
+          "comments": {
+            "reference": "src/pages/OrderInfo/index.tsx:38"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "最后再确认下报名信息": {
+          "msgid": "最后再确认下报名信息",
+          "comments": {
+            "reference": "src/pages/OrderInfo/index.tsx:40"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "准备迎接挑战了么？": {
+          "msgid": "准备迎接挑战了么？",
+          "comments": {
+            "reference": "src/pages/OrderInfo/index.tsx:51"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "加油！": {
+          "msgid": "加油！",
+          "comments": {
+            "reference": "src/pages/OrderInfo/index.tsx:53"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "请确认您的项目与服务": {
+          "msgid": "请确认您的项目与服务",
+          "comments": {
+            "reference": "src/pages/OrderInfo/index.tsx:81"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "我的订单": {
+          "msgid": "我的订单",
+          "comments": {
+            "reference": "src/pages/OrderList/index.tsx:27"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "暂无订单": {
+          "msgid": "暂无订单",
+          "comments": {
+            "reference": "src/pages/OrderList/index.tsx:35"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "报名比赛的订单都会存在这里哦！": {
+          "msgid": "报名比赛的订单都会存在这里哦！",
+          "comments": {
+            "reference": "src/pages/OrderList/index.tsx:36"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "下单时间：": {
+          "msgid": "下单时间：",
+          "comments": {
+            "reference": "src/pages/OrderList/index.tsx:53"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "超时未支付，订单关闭": {
+          "msgid": "超时未支付，订单关闭",
+          "comments": {
+            "reference": "src/pages/OrderList/index.tsx:57"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "比赛项目：": {
+          "msgid": "比赛项目：",
+          "comments": {
+            "reference": "src/pages/OrderList/index.tsx:72"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "自选服务：": {
+          "msgid": "自选服务：",
+          "comments": {
+            "reference": "src/pages/OrderList/index.tsx:77"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "添加参赛者": {
+          "msgid": "添加参赛者",
+          "comments": {
+            "reference": "src/pages/ParticipatorInfo/index.tsx:33"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "完善报名信息": {
+          "msgid": "完善报名信息",
+          "comments": {
+            "reference": "src/pages/ParticipatorInfo/index.tsx:33"
+          },
+          "msgstr": [
+            ""
+          ]
+        }
+      },
+      "placeholder": {
+        "请输入姓名": {
+          "msgid": "请输入姓名",
+          "msgctxt": "placeholder",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:166"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "请选择": {
+          "msgid": "请选择",
+          "msgctxt": "placeholder",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:215\nsrc/pages/ApplyCard/index.tsx:278\nsrc/pages/ApplyCard/index.tsx:306\nsrc/pages/ApplyCard/index.tsx:345\nsrc/pages/ApplyCard/index.tsx:362\nsrc/pages/ApplyCard/index.tsx:408"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "请选择出生日期": {
+          "msgid": "请选择出生日期",
+          "msgctxt": "placeholder",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:245"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "请选择国籍": {
+          "msgid": "请选择国籍",
+          "msgctxt": "placeholder",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:262"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "请输入现居住地址": {
+          "msgid": "请输入现居住地址",
+          "msgctxt": "placeholder",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:294"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "请输入手机号": {
+          "msgid": "请输入手机号",
+          "msgctxt": "placeholder",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:322\nsrc/pages/ApplyCard/index.tsx:424"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "请输入联系邮箱": {
+          "msgid": "请输入联系邮箱",
+          "msgctxt": "placeholder",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:332"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "请选择联系人关系": {
+          "msgid": "请选择联系人关系",
+          "msgctxt": "placeholder",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:379"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "请输入紧急联系人姓名": {
+          "msgid": "请输入紧急联系人姓名",
+          "msgctxt": "placeholder",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:396"
+          },
+          "msgstr": [
+            ""
+          ]
+        }
+      },
+      "表单域": {
+        "姓名＊": {
+          "msgid": "姓名＊",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:171"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "是本人": {
+          "msgid": "是本人",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:185"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "性别": {
+          "msgid": "性别",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:190"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "证件类型": {
+          "msgid": "证件类型",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:225"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "证件号码": {
+          "msgid": "证件号码",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:236"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "出生日期": {
+          "msgid": "出生日期",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:254"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "国籍": {
+          "msgid": "国籍",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:272"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "省市地区": {
+          "msgid": "省市地区",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:288"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "详细地址": {
+          "msgid": "详细地址",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:299"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "手机号＊": {
+          "msgid": "手机号＊",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:303"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "邮箱": {
+          "msgid": "邮箱",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:337"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "血型": {
+          "msgid": "血型",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:356"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "衣服尺寸": {
+          "msgid": "衣服尺寸",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:373"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "联系人关系": {
+          "msgid": "联系人关系",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:390"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "紧急联系人": {
+          "msgid": "紧急联系人",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:401"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "联系人手机": {
+          "msgid": "联系人手机",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:405"
+          },
+          "msgstr": [
+            ""
+          ]
+        }
+      },
+      "placehodler": {
+        "请输入证件号码": {
+          "msgid": "请输入证件号码",
+          "msgctxt": "placehodler",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:231"
+          },
+          "msgstr": [
+            ""
+          ]
+        }
+      }
+    }
+  },
+  "zh-Hant": {
+    "charset": "utf-8",
+    "headers": {
+      "mime-version": "1.0",
+      "content-type": "text/plain; charset=UTF-8",
+      "content-transfer-encoding": "8bit",
+      "x-generator": "POEditor.com",
+      "project-id-version": "joyrun-match-enrollment",
+      "language": "zh-Hant"
+    },
+    "translations": {
+      "": {
+        "": {
+          "msgid": "",
+          "msgstr": [
+            "MIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Generator: POEditor.com\nProject-Id-Version: joyrun-match-enrollment\nLanguage: zh-Hant\n"
+          ]
+        },
+        "收起": {
+          "msgid": "收起",
+          "comments": {
+            "reference": "src/components/@shared/EllipseText/index.tsx:34"
+          },
+          "msgstr": [
+            "收起"
+          ]
+        },
+        "展开全部": {
+          "msgid": "展开全部",
+          "comments": {
+            "reference": "src/components/@shared/EllipseText/index.tsx:34"
+          },
+          "msgstr": [
+            "展開全部"
+          ]
+        },
+        "请选择": {
+          "msgid": "请选择",
+          "comments": {
+            "reference": "src/components/@shared/FormField/index.tsx:50"
+          },
+          "msgstr": [
+            "請選擇"
+          ]
+        },
+        "比赛进度": {
+          "msgid": "比赛进度",
+          "comments": {
+            "reference": "src/components/MatchInfo/index.tsx:42"
+          },
+          "msgstr": [
+            "比賽進度"
+          ]
+        },
+        "开始报名": {
+          "msgid": "开始报名",
+          "comments": {
+            "reference": "src/components/MatchInfo/index.tsx:46"
+          },
+          "msgstr": [
+            "開始報名"
+          ]
+        },
+        "4月21日": {
+          "msgid": "4月21日",
+          "comments": {
+            "reference": "src/components/MatchInfo/index.tsx:46\nsrc/components/MatchInfo/index.tsx:47\nsrc/components/MatchInfo/index.tsx:48"
+          },
+          "msgstr": [
+            "4月21日"
+          ]
+        },
+        "报名截止": {
+          "msgid": "报名截止",
+          "comments": {
+            "reference": "src/components/MatchInfo/index.tsx:47"
+          },
+          "msgstr": [
+            "報名截止"
+          ]
+        },
+        "比赛日期": {
+          "msgid": "比赛日期",
+          "comments": {
+            "reference": "src/components/MatchInfo/index.tsx:48"
+          },
+          "msgstr": [
+            "比賽日期"
+          ]
+        },
+        "竞赛规则": {
+          "msgid": "竞赛规则",
+          "comments": {
+            "reference": "src/components/MatchInfo/index.tsx:54"
+          },
+          "msgstr": [
+            "競賽規則"
+          ]
+        },
+        "报名须知": {
+          "msgid": "报名须知",
+          "comments": {
+            "reference": "src/components/MatchInfo/index.tsx:59\nsrc/pages/ApplyDetail/index.tsx:235"
+          },
+          "msgstr": [
+            "報名須知"
+          ]
+        },
+        "查看所有评论": {
+          "msgid": "查看所有评论",
+          "comments": {
+            "reference": "src/components/MatchRemark/index.tsx:100"
+          },
+          "msgstr": [
+            "查看所有評論"
+          ]
+        },
+        "编辑报名卡": {
+          "msgid": "编辑报名卡",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:32"
+          },
+          "msgstr": [
+            "編輯報名卡"
+          ]
+        },
+        "添加报名卡": {
+          "msgid": "添加报名卡",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:32"
+          },
+          "msgstr": [
+            "添加報名卡"
+          ]
+        },
+        "编辑成功": {
+          "msgid": "编辑成功",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:73"
+          },
+          "msgstr": [
+            "編輯成功"
+          ]
+        },
+        "添加成功": {
+          "msgid": "添加成功",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:76"
+          },
+          "msgstr": [
+            "添加成功"
+          ]
+        },
+        "姓名不能为空": {
+          "msgid": "姓名不能为空",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:90\nsrc/pages/ParticipatorInfo/index.tsx:55"
+          },
+          "msgstr": [
+            "姓名不能為空"
+          ]
+        },
+        "姓名长度超过 20 个限制": {
+          "msgid": "姓名长度超过 20 个限制",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:93\nsrc/pages/ParticipatorInfo/index.tsx:58"
+          },
+          "msgstr": [
+            "姓名長度超過 20 個限制"
+          ]
+        },
+        "请正确输入15或者18位的证件号码": {
+          "msgid": "请正确输入15或者18位的证件号码",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:102\nsrc/pages/ParticipatorInfo/index.tsx:67"
+          },
+          "msgstr": [
+            "請正確輸入15或者18位的證件號碼"
+          ]
+        },
+        "请输入9位有效的港澳居民来往内地通行证": {
+          "msgid": "请输入9位有效的港澳居民来往内地通行证",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:107\nsrc/pages/ParticipatorInfo/index.tsx:72"
+          },
+          "msgstr": [
+            "請輸入9位有效的港澳居民來往內地通行證"
+          ]
+        },
+        "请输入8位有效的台湾居民来往大陆通行证号码": {
+          "msgid": "请输入8位有效的台湾居民来往大陆通行证号码",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:112\nsrc/pages/ParticipatorInfo/index.tsx:77"
+          },
+          "msgstr": [
+            "請輸入8位有效的台灣居民來往大陸通行證號碼"
+          ]
+        },
+        "请输入有效的护照号码": {
+          "msgid": "请输入有效的护照号码",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:117\nsrc/pages/ParticipatorInfo/index.tsx:82"
+          },
+          "msgstr": [
+            "請輸入有效的護照號碼"
+          ]
+        },
+        "请输入有效电子邮箱": {
+          "msgid": "请输入有效电子邮箱",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:126\nsrc/pages/ParticipatorInfo/index.tsx:91"
+          },
+          "msgstr": [
+            "請輸入有效電子郵箱"
+          ]
+        },
+        "手机号码不能为空": {
+          "msgid": "手机号码不能为空",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:133\nsrc/pages/ParticipatorInfo/index.tsx:98"
+          },
+          "msgstr": [
+            "手機號碼不能為空"
+          ]
+        },
+        "请输入正确格式的手机号码": {
+          "msgid": "请输入正确格式的手机号码",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:139\nsrc/pages/ApplyCard/index.tsx:148\nsrc/pages/ParticipatorInfo/index.tsx:104\nsrc/pages/ParticipatorInfo/index.tsx:113"
+          },
+          "msgstr": [
+            "請輸入正確格式的手機號碼"
+          ]
+        },
+        "请选择出生日期": {
+          "msgid": "请选择出生日期",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:244"
+          },
+          "msgstr": [
+            "請選擇出生日期"
+          ]
+        },
+        "删除": {
+          "msgid": "删除",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:435"
+          },
+          "msgstr": [
+            "刪除"
+          ]
+        },
+        "保存": {
+          "msgid": "保存",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:436"
+          },
+          "msgstr": [
+            "保存"
+          ]
+        },
+        "选择参赛者": {
+          "msgid": "选择参赛者",
+          "comments": {
+            "reference": "src/pages/ApplyCardList/index.tsx:27\nsrc/pages/ApplyDetail/index.tsx:219"
+          },
+          "msgstr": [
+            "選擇參賽者"
+          ]
+        },
+        "暂无报名卡": {
+          "msgid": "暂无报名卡",
+          "comments": {
+            "reference": "src/pages/ApplyCardList/index.tsx:46"
+          },
+          "msgstr": [
+            "暫無報名卡"
+          ]
+        },
+        "添加悦跑赛事快速报名卡资料，通过悦跑圈报名的赛事一概无需重复填写个人信息": {
+          "msgid": "添加悦跑赛事快速报名卡资料，通过悦跑圈报名的赛事一概无需重复填写个人信息",
+          "comments": {
+            "reference": "src/pages/ApplyCardList/index.tsx:49"
+          },
+          "msgstr": [
+            "添加悅跑賽事快速報名卡資料，通過悅跑圈報名的賽事一概無需重複填寫個人信息"
+          ]
+        },
+        "添加新的报名卡": {
+          "msgid": "添加新的报名卡",
+          "comments": {
+            "reference": "src/pages/ApplyCardList/index.tsx:54\nsrc/pages/ApplyCardList/index.tsx:116"
+          },
+          "msgstr": [
+            "添加新的報名卡"
+          ]
+        },
+        "本人": {
+          "msgid": "本人",
+          "comments": {
+            "reference": "src/pages/ApplyCardList/index.tsx:75"
+          },
+          "msgstr": [
+            "本人"
+          ]
+        },
+        "身份证": {
+          "msgid": "身份证",
+          "comments": {
+            "reference": "src/pages/ApplyCardList/index.tsx:77\nsrc/pages/ApplyCardList/index.tsx:101"
+          },
+          "msgstr": [
+            "身份證"
+          ]
+        },
+        "护照": {
+          "msgid": "护照",
+          "comments": {
+            "reference": "src/pages/ApplyCardList/index.tsx:77\nsrc/pages/ApplyCardList/index.tsx:101"
+          },
+          "msgstr": [
+            "護照"
+          ]
+        },
+        "其他参赛者报名卡": {
+          "msgid": "其他参赛者报名卡",
+          "comments": {
+            "reference": "src/pages/ApplyCardList/index.tsx:90"
+          },
+          "msgstr": [
+            "其他參賽者報名卡"
+          ]
+        },
+        "比赛报名": {
+          "msgid": "比赛报名",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:35"
+          },
+          "msgstr": [
+            "比賽報名"
+          ]
+        },
+        "选择参赛项目": {
+          "msgid": "选择参赛项目",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:83"
+          },
+          "msgstr": [
+            "選擇參賽項目"
+          ]
+        },
+        "公里": {
+          "msgid": "公里",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:99\nsrc/pages/MatchDetail/index.tsx:203"
+          },
+          "msgstr": [
+            "公里"
+          ]
+        },
+        "开跑": {
+          "msgid": "开跑",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:100\nsrc/pages/MatchDetail/index.tsx:204"
+          },
+          "msgstr": [
+            "開跑"
+          ]
+        },
+        "已报满": {
+          "msgid": "已报满",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:110"
+          },
+          "msgstr": [
+            "已報滿"
+          ]
+        },
+        "自选服务": {
+          "msgid": "自选服务",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:141\nsrc/pages/OrderDetail/index.tsx:125"
+          },
+          "msgstr": [
+            "自選服務"
+          ]
+        },
+        "库存不足": {
+          "msgid": "库存不足",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:178\nsrc/pages/ApplyDetail/index.tsx:287"
+          },
+          "msgstr": [
+            "庫存不足"
+          ]
+        },
+        "参赛者信息": {
+          "msgid": "参赛者信息",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:197\nsrc/pages/OrderDetail/index.tsx:168"
+          },
+          "msgstr": [
+            "參賽者信息"
+          ]
+        },
+        "我已阅读并接受": {
+          "msgid": "我已阅读并接受",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:251"
+          },
+          "msgstr": [
+            "我已閱讀並接受"
+          ]
+        },
+        "《平台服务协议》": {
+          "msgid": "《平台服务协议》",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:255"
+          },
+          "msgstr": [
+            "《平台服務協議》"
+          ]
+        },
+        "每人限购 %d 份": {
+          "msgid": "每人限购 %d 份",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:284"
+          },
+          "msgstr": [
+            "每人限購 %d 份"
+          ]
+        },
+        "请添加参赛者信息": {
+          "msgid": "请添加参赛者信息",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:305"
+          },
+          "msgstr": [
+            "請添加參賽者信息"
+          ]
+        },
+        "请选择一项参赛项目": {
+          "msgid": "请选择一项参赛项目",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:309"
+          },
+          "msgstr": [
+            "請選擇一項參賽項目"
+          ]
+        },
+        "请阅读并接受《平台服务协议》": {
+          "msgid": "请阅读并接受《平台服务协议》",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:313"
+          },
+          "msgstr": [
+            "請閱讀並接受《平台服務協議》"
+          ]
+        },
+        "合计：": {
+          "msgid": "合计：",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:343\nsrc/pages/OrderInfo/index.tsx:103"
+          },
+          "msgstr": [
+            "合計："
+          ]
+        },
+        "立即支付": {
+          "msgid": "立即支付",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:345\nsrc/pages/OrderInfo/index.tsx:105"
+          },
+          "msgstr": [
+            "立即支付"
+          ]
+        },
+        "热评": {
+          "msgid": "热评",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:41"
+          },
+          "msgstr": [
+            "熱評"
+          ]
+        },
+        "详情": {
+          "msgid": "详情",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:45"
+          },
+          "msgstr": [
+            "詳情"
+          ]
+        },
+        "我跑过": {
+          "msgid": "我跑过",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:162"
+          },
+          "msgstr": [
+            "我跑過"
+          ]
+        },
+        "有 %s 人跑过": {
+          "msgid": "有 %s 人跑过",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:173"
+          },
+          "msgstr": [
+            "有 %s 人跑過"
+          ]
+        },
+        "官方网站：": {
+          "msgid": "官方网站：",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:181"
+          },
+          "msgstr": [
+            "官方網站："
+          ]
+        },
+        "比赛项目": {
+          "msgid": "比赛项目",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:196\nsrc/pages/OrderDetail/index.tsx:109\nsrc/pages/OrderInfo/index.tsx:85"
+          },
+          "msgstr": [
+            "比賽項目"
+          ]
+        },
+        "已报名": {
+          "msgid": "已报名",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:264"
+          },
+          "msgstr": [
+            "已報名"
+          ]
+        },
+        "想跑": {
+          "msgid": "想跑",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:270"
+          },
+          "msgstr": [
+            "想跑"
+          ]
+        },
+        "一键报名": {
+          "msgid": "一键报名",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:274"
+          },
+          "msgstr": [
+            "一鍵報名"
+          ]
+        },
+        "报名已满": {
+          "msgid": "报名已满",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:314"
+          },
+          "msgstr": [
+            "報名已滿"
+          ]
+        },
+        "立即报名": {
+          "msgid": "立即报名",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:315"
+          },
+          "msgstr": [
+            "立即報名"
+          ]
+        },
+        "已经报名": {
+          "msgid": "已经报名",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:316"
+          },
+          "msgstr": [
+            "已經報名"
+          ]
+        },
+        "订单详情": {
+          "msgid": "订单详情",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:39"
+          },
+          "msgstr": [
+            "訂單詳情"
+          ]
+        },
+        "请在 %s 前完成支付，超时订单将失效哦": {
+          "msgid": "请在 %s 前完成支付，超时订单将失效哦",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:75"
+          },
+          "msgstr": [
+            "請在 %s 前完成支付，超時訂單將失效哦"
+          ]
+        },
+        "去支付": {
+          "msgid": "去支付",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:77\nsrc/pages/OrderList/index.tsx:89"
+          },
+          "msgstr": [
+            "去支付"
+          ]
+        },
+        "取消订单": {
+          "msgid": "取消订单",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:78"
+          },
+          "msgstr": [
+            "取消訂單"
+          ]
+        },
+        "订单编号：": {
+          "msgid": "订单编号：",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:83"
+          },
+          "msgstr": [
+            "訂單編號："
+          ]
+        },
+        "项目与服务": {
+          "msgid": "项目与服务",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:104"
+          },
+          "msgstr": [
+            "項目與服務"
+          ]
+        },
+        "比赛时间：": {
+          "msgid": "比赛时间：",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:106\nsrc/pages/OrderList/index.tsx:69"
+          },
+          "msgstr": [
+            "比賽時間："
+          ]
+        },
+        "合计": {
+          "msgid": "合计",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:148"
+          },
+          "msgstr": [
+            "合計"
+          ]
+        },
+        "订单信息": {
+          "msgid": "订单信息",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:193"
+          },
+          "msgstr": [
+            "訂單信息"
+          ]
+        },
+        "订单编号": {
+          "msgid": "订单编号",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:198"
+          },
+          "msgstr": [
+            "訂單編號"
+          ]
+        },
+        "订单时间": {
+          "msgid": "订单时间",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:202"
+          },
+          "msgstr": [
+            "訂單時間"
+          ]
+        },
+        "订单类型": {
+          "msgid": "订单类型",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:206"
+          },
+          "msgstr": [
+            "訂單類型"
+          ]
+        },
+        "该赛事不支持退款": {
+          "msgid": "该赛事不支持退款",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:225"
+          },
+          "msgstr": [
+            "該賽事不支持退款"
+          ]
+        },
+        "该赛事不可转让名额": {
+          "msgid": "该赛事不可转让名额",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:233"
+          },
+          "msgstr": [
+            "該賽事不可轉讓名額"
+          ]
+        },
+        "删除订单": {
+          "msgid": "删除订单",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:244"
+          },
+          "msgstr": [
+            "刪除訂單"
+          ]
+        },
+        "订单取消成功": {
+          "msgid": "订单取消成功",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:256"
+          },
+          "msgstr": [
+            "訂單取消成功"
+          ]
+        },
+        "订单删除操作": {
+          "msgid": "订单删除操作",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:267"
+          },
+          "msgstr": [
+            "訂單刪除操作"
+          ]
+        },
+        "订单删除后将不可恢复": {
+          "msgid": "订单删除后将不可恢复",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:267"
+          },
+          "msgstr": [
+            "訂單刪除後將不可恢復"
+          ]
+        },
+        "取消": {
+          "msgid": "取消",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:269"
+          },
+          "msgstr": [
+            "取消"
+          ]
+        },
+        "确定": {
+          "msgid": "确定",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:273\nsrc/pages/ParticipatorInfo/index.tsx:249"
+          },
+          "msgstr": [
+            "確定"
+          ]
+        },
+        "确认报名信息": {
+          "msgid": "确认报名信息",
+          "comments": {
+            "reference": "src/pages/OrderInfo/index.tsx:25"
+          },
+          "msgstr": [
+            "確認報名信息"
+          ]
+        },
+        "报名卡": {
+          "msgid": "报名卡",
+          "comments": {
+            "reference": "src/pages/OrderInfo/index.tsx:37"
+          },
+          "msgstr": [
+            "報名卡"
+          ]
+        },
+        "报名": {
+          "msgid": "报名",
+          "comments": {
+            "reference": "src/pages/OrderInfo/index.tsx:38"
+          },
+          "msgstr": [
+            "報名"
+          ]
+        },
+        "最后再确认下报名信息": {
+          "msgid": "最后再确认下报名信息",
+          "comments": {
+            "reference": "src/pages/OrderInfo/index.tsx:40"
+          },
+          "msgstr": [
+            "最後再確認下報名信息"
+          ]
+        },
+        "准备迎接挑战了么？": {
+          "msgid": "准备迎接挑战了么？",
+          "comments": {
+            "reference": "src/pages/OrderInfo/index.tsx:51"
+          },
+          "msgstr": [
+            "準備迎接挑戰了麼？"
+          ]
+        },
+        "加油！": {
+          "msgid": "加油！",
+          "comments": {
+            "reference": "src/pages/OrderInfo/index.tsx:53"
+          },
+          "msgstr": [
+            "加油！"
+          ]
+        },
+        "请确认您的项目与服务": {
+          "msgid": "请确认您的项目与服务",
+          "comments": {
+            "reference": "src/pages/OrderInfo/index.tsx:81"
+          },
+          "msgstr": [
+            "請確認您的項目與服務"
+          ]
+        },
+        "我的订单": {
+          "msgid": "我的订单",
+          "comments": {
+            "reference": "src/pages/OrderList/index.tsx:27"
+          },
+          "msgstr": [
+            "我的訂單"
+          ]
+        },
+        "暂无订单": {
+          "msgid": "暂无订单",
+          "comments": {
+            "reference": "src/pages/OrderList/index.tsx:35"
+          },
+          "msgstr": [
+            "暫無訂單"
+          ]
+        },
+        "报名比赛的订单都会存在这里哦！": {
+          "msgid": "报名比赛的订单都会存在这里哦！",
+          "comments": {
+            "reference": "src/pages/OrderList/index.tsx:36"
+          },
+          "msgstr": [
+            "報名比賽的訂單都會存在這裡哦！"
+          ]
+        },
+        "下单时间：": {
+          "msgid": "下单时间：",
+          "comments": {
+            "reference": "src/pages/OrderList/index.tsx:53"
+          },
+          "msgstr": [
+            "下單時間："
+          ]
+        },
+        "超时未支付，订单关闭": {
+          "msgid": "超时未支付，订单关闭",
+          "comments": {
+            "reference": "src/pages/OrderList/index.tsx:57"
+          },
+          "msgstr": [
+            "超時未支付，訂單關閉"
+          ]
+        },
+        "比赛项目：": {
+          "msgid": "比赛项目：",
+          "comments": {
+            "reference": "src/pages/OrderList/index.tsx:72"
+          },
+          "msgstr": [
+            "比賽項目："
+          ]
+        },
+        "自选服务：": {
+          "msgid": "自选服务：",
+          "comments": {
+            "reference": "src/pages/OrderList/index.tsx:77"
+          },
+          "msgstr": [
+            "自選服務："
+          ]
+        },
+        "添加参赛者": {
+          "msgid": "添加参赛者",
+          "comments": {
+            "reference": "src/pages/ParticipatorInfo/index.tsx:33"
+          },
+          "msgstr": [
+            "添加參賽者"
+          ]
+        },
+        "完善报名信息": {
+          "msgid": "完善报名信息",
+          "comments": {
+            "reference": "src/pages/ParticipatorInfo/index.tsx:33"
+          },
+          "msgstr": [
+            "完善報名信息"
+          ]
+        }
+      },
+      "placeholder": {
+        "请输入姓名": {
+          "msgid": "请输入姓名",
+          "msgctxt": "placeholder",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:166"
+          },
+          "msgstr": [
+            "請輸入姓名"
+          ]
+        },
+        "请选择": {
+          "msgid": "请选择",
+          "msgctxt": "placeholder",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:215\nsrc/pages/ApplyCard/index.tsx:278\nsrc/pages/ApplyCard/index.tsx:306\nsrc/pages/ApplyCard/index.tsx:345\nsrc/pages/ApplyCard/index.tsx:362\nsrc/pages/ApplyCard/index.tsx:408"
+          },
+          "msgstr": [
+            "請選擇"
+          ]
+        },
+        "请选择出生日期": {
+          "msgid": "请选择出生日期",
+          "msgctxt": "placeholder",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:245"
+          },
+          "msgstr": [
+            "請選擇出生日期"
+          ]
+        },
+        "请选择国籍": {
+          "msgid": "请选择国籍",
+          "msgctxt": "placeholder",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:262"
+          },
+          "msgstr": [
+            "請選擇國籍"
+          ]
+        },
+        "请输入现居住地址": {
+          "msgid": "请输入现居住地址",
+          "msgctxt": "placeholder",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:294"
+          },
+          "msgstr": [
+            "請輸入現居住地址"
+          ]
+        },
+        "请输入手机号": {
+          "msgid": "请输入手机号",
+          "msgctxt": "placeholder",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:322\nsrc/pages/ApplyCard/index.tsx:424"
+          },
+          "msgstr": [
+            "請輸入手機號"
+          ]
+        },
+        "请输入联系邮箱": {
+          "msgid": "请输入联系邮箱",
+          "msgctxt": "placeholder",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:332"
+          },
+          "msgstr": [
+            "請輸入聯繫郵箱"
+          ]
+        },
+        "请选择联系人关系": {
+          "msgid": "请选择联系人关系",
+          "msgctxt": "placeholder",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:379"
+          },
+          "msgstr": [
+            "請選擇聯繫人關係"
+          ]
+        },
+        "请输入紧急联系人姓名": {
+          "msgid": "请输入紧急联系人姓名",
+          "msgctxt": "placeholder",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:396"
+          },
+          "msgstr": [
+            "請輸入緊急聯繫人姓名"
+          ]
+        }
+      },
+      "表单域": {
+        "姓名＊": {
+          "msgid": "姓名＊",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:171"
+          },
+          "msgstr": [
+            "姓名＊"
+          ]
+        },
+        "是本人": {
+          "msgid": "是本人",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:185"
+          },
+          "msgstr": [
+            "是本人"
+          ]
+        },
+        "性别": {
+          "msgid": "性别",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:190"
+          },
+          "msgstr": [
+            "性別"
+          ]
+        },
+        "证件类型": {
+          "msgid": "证件类型",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:225"
+          },
+          "msgstr": [
+            "證件類型"
+          ]
+        },
+        "证件号码": {
+          "msgid": "证件号码",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:236"
+          },
+          "msgstr": [
+            "證件號碼"
+          ]
+        },
+        "出生日期": {
+          "msgid": "出生日期",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:254"
+          },
+          "msgstr": [
+            "出生日期"
+          ]
+        },
+        "国籍": {
+          "msgid": "国籍",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:272"
+          },
+          "msgstr": [
+            "國籍"
+          ]
+        },
+        "省市地区": {
+          "msgid": "省市地区",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:288"
+          },
+          "msgstr": [
+            "省市地區"
+          ]
+        },
+        "详细地址": {
+          "msgid": "详细地址",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:299"
+          },
+          "msgstr": [
+            "詳細地址"
+          ]
+        },
+        "手机号＊": {
+          "msgid": "手机号＊",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:303"
+          },
+          "msgstr": [
+            "手機號＊"
+          ]
+        },
+        "邮箱": {
+          "msgid": "邮箱",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:337"
+          },
+          "msgstr": [
+            "郵箱"
+          ]
+        },
+        "血型": {
+          "msgid": "血型",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:356"
+          },
+          "msgstr": [
+            "血型"
+          ]
+        },
+        "衣服尺寸": {
+          "msgid": "衣服尺寸",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:373"
+          },
+          "msgstr": [
+            "衣服尺寸"
+          ]
+        },
+        "联系人关系": {
+          "msgid": "联系人关系",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:390"
+          },
+          "msgstr": [
+            "聯繫人關係"
+          ]
+        },
+        "紧急联系人": {
+          "msgid": "紧急联系人",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:401"
+          },
+          "msgstr": [
+            "緊急聯繫人"
+          ]
+        },
+        "联系人手机": {
+          "msgid": "联系人手机",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:405"
+          },
+          "msgstr": [
+            "聯繫人手機"
+          ]
+        }
+      },
+      "placehodler": {
+        "请输入证件号码": {
+          "msgid": "请输入证件号码",
+          "msgctxt": "placehodler",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:231"
+          },
+          "msgstr": [
+            "請輸入證件號碼"
+          ]
+        }
+      }
+    }
+  },
+  "en": {
+    "charset": "utf-8",
+    "headers": {
+      "mime-version": "1.0",
+      "content-type": "text/plain; charset=UTF-8",
+      "content-transfer-encoding": "8bit",
+      "x-generator": "POEditor.com",
+      "project-id-version": "joyrun-match-enrollment",
+      "language": "en"
+    },
+    "translations": {
+      "": {
+        "": {
+          "msgid": "",
+          "msgstr": [
+            "MIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Generator: POEditor.com\nProject-Id-Version: joyrun-match-enrollment\nLanguage: en\n"
+          ]
+        },
+        "收起": {
+          "msgid": "收起",
+          "comments": {
+            "reference": "src/components/@shared/EllipseText/index.tsx:34"
+          },
+          "msgstr": [
+            "Collapse"
+          ]
+        },
+        "展开全部": {
+          "msgid": "展开全部",
+          "comments": {
+            "reference": "src/components/@shared/EllipseText/index.tsx:34"
+          },
+          "msgstr": [
+            "Expand All"
+          ]
+        },
+        "请选择": {
+          "msgid": "请选择",
+          "comments": {
+            "reference": "src/components/@shared/FormField/index.tsx:50"
+          },
+          "msgstr": [
+            "please choose"
+          ]
+        },
+        "比赛进度": {
+          "msgid": "比赛进度",
+          "comments": {
+            "reference": "src/components/MatchInfo/index.tsx:42"
+          },
+          "msgstr": [
+            "Game progress"
+          ]
+        },
+        "开始报名": {
+          "msgid": "开始报名",
+          "comments": {
+            "reference": "src/components/MatchInfo/index.tsx:46"
+          },
+          "msgstr": [
+            "Start signing up"
+          ]
+        },
+        "4月21日": {
+          "msgid": "4月21日",
+          "comments": {
+            "reference": "src/components/MatchInfo/index.tsx:46\nsrc/components/MatchInfo/index.tsx:47\nsrc/components/MatchInfo/index.tsx:48"
+          },
+          "msgstr": [
+            "April 21"
+          ]
+        },
+        "报名截止": {
+          "msgid": "报名截止",
+          "comments": {
+            "reference": "src/components/MatchInfo/index.tsx:47"
+          },
+          "msgstr": [
+            "Registration deadline"
+          ]
+        },
+        "比赛日期": {
+          "msgid": "比赛日期",
+          "comments": {
+            "reference": "src/components/MatchInfo/index.tsx:48"
+          },
+          "msgstr": [
+            "Date of the match"
+          ]
+        },
+        "竞赛规则": {
+          "msgid": "竞赛规则",
+          "comments": {
+            "reference": "src/components/MatchInfo/index.tsx:54"
+          },
+          "msgstr": [
+            "Competition rules"
+          ]
+        },
+        "报名须知": {
+          "msgid": "报名须知",
+          "comments": {
+            "reference": "src/components/MatchInfo/index.tsx:59\nsrc/pages/ApplyDetail/index.tsx:235"
+          },
+          "msgstr": [
+            "Registration notice"
+          ]
+        },
+        "查看所有评论": {
+          "msgid": "查看所有评论",
+          "comments": {
+            "reference": "src/components/MatchRemark/index.tsx:100"
+          },
+          "msgstr": [
+            "View all comments"
+          ]
+        },
+        "编辑报名卡": {
+          "msgid": "编辑报名卡",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:32"
+          },
+          "msgstr": [
+            "Edit registration card"
+          ]
+        },
+        "添加报名卡": {
+          "msgid": "添加报名卡",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:32"
+          },
+          "msgstr": [
+            "Add registration card"
+          ]
+        },
+        "编辑成功": {
+          "msgid": "编辑成功",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:73"
+          },
+          "msgstr": [
+            "Successful editing"
+          ]
+        },
+        "添加成功": {
+          "msgid": "添加成功",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:76"
+          },
+          "msgstr": [
+            "Added successfully"
+          ]
+        },
+        "姓名不能为空": {
+          "msgid": "姓名不能为空",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:90\nsrc/pages/ParticipatorInfo/index.tsx:55"
+          },
+          "msgstr": [
+            "Name cannot be empty"
+          ]
+        },
+        "姓名长度超过 20 个限制": {
+          "msgid": "姓名长度超过 20 个限制",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:93\nsrc/pages/ParticipatorInfo/index.tsx:58"
+          },
+          "msgstr": [
+            "Name length exceeds 20 limits"
+          ]
+        },
+        "请正确输入15或者18位的证件号码": {
+          "msgid": "请正确输入15或者18位的证件号码",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:102\nsrc/pages/ParticipatorInfo/index.tsx:67"
+          },
+          "msgstr": [
+            "Please enter the 15 or 18 digit ID number correctly"
+          ]
+        },
+        "请输入9位有效的港澳居民来往内地通行证": {
+          "msgid": "请输入9位有效的港澳居民来往内地通行证",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:107\nsrc/pages/ParticipatorInfo/index.tsx:72"
+          },
+          "msgstr": [
+            "Please enter 9 valid Hong Kong and Macao residents to travel to the Mainland"
+          ]
+        },
+        "请输入8位有效的台湾居民来往大陆通行证号码": {
+          "msgid": "请输入8位有效的台湾居民来往大陆通行证号码",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:112\nsrc/pages/ParticipatorInfo/index.tsx:77"
+          },
+          "msgstr": [
+            "Please enter 8 valid Taiwan residents to travel to the mainland pass number"
+          ]
+        },
+        "请输入有效的护照号码": {
+          "msgid": "请输入有效的护照号码",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:117\nsrc/pages/ParticipatorInfo/index.tsx:82"
+          },
+          "msgstr": [
+            "Please enter a valid passport number"
+          ]
+        },
+        "请输入有效电子邮箱": {
+          "msgid": "请输入有效电子邮箱",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:126\nsrc/pages/ParticipatorInfo/index.tsx:91"
+          },
+          "msgstr": [
+            "Please enter a valid email address"
+          ]
+        },
+        "手机号码不能为空": {
+          "msgid": "手机号码不能为空",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:133\nsrc/pages/ParticipatorInfo/index.tsx:98"
+          },
+          "msgstr": [
+            "Phone number can not be blank"
+          ]
+        },
+        "请输入正确格式的手机号码": {
+          "msgid": "请输入正确格式的手机号码",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:139\nsrc/pages/ApplyCard/index.tsx:148\nsrc/pages/ParticipatorInfo/index.tsx:104\nsrc/pages/ParticipatorInfo/index.tsx:113"
+          },
+          "msgstr": [
+            "Please enter the phone number in the correct format"
+          ]
+        },
+        "请选择出生日期": {
+          "msgid": "请选择出生日期",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:244"
+          },
+          "msgstr": [
+            "Please select the date of birth"
+          ]
+        },
+        "删除": {
+          "msgid": "删除",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:435"
+          },
+          "msgstr": [
+            "delete"
+          ]
+        },
+        "保存": {
+          "msgid": "保存",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:436"
+          },
+          "msgstr": [
+            "save"
+          ]
+        },
+        "选择参赛者": {
+          "msgid": "选择参赛者",
+          "comments": {
+            "reference": "src/pages/ApplyCardList/index.tsx:27\nsrc/pages/ApplyDetail/index.tsx:219"
+          },
+          "msgstr": [
+            "Select entrant"
+          ]
+        },
+        "暂无报名卡": {
+          "msgid": "暂无报名卡",
+          "comments": {
+            "reference": "src/pages/ApplyCardList/index.tsx:46"
+          },
+          "msgstr": [
+            "No registration card"
+          ]
+        },
+        "添加悦跑赛事快速报名卡资料，通过悦跑圈报名的赛事一概无需重复填写个人信息": {
+          "msgid": "添加悦跑赛事快速报名卡资料，通过悦跑圈报名的赛事一概无需重复填写个人信息",
+          "comments": {
+            "reference": "src/pages/ApplyCardList/index.tsx:49"
+          },
+          "msgstr": [
+            "Add the fast registration card information for the escrow event, and do not need to repeat the personal information for the event registered through the lap"
+          ]
+        },
+        "添加新的报名卡": {
+          "msgid": "添加新的报名卡",
+          "comments": {
+            "reference": "src/pages/ApplyCardList/index.tsx:54\nsrc/pages/ApplyCardList/index.tsx:116"
+          },
+          "msgstr": [
+            "Add a new registration card"
+          ]
+        },
+        "本人": {
+          "msgid": "本人",
+          "comments": {
+            "reference": "src/pages/ApplyCardList/index.tsx:75"
+          },
+          "msgstr": [
+            "I"
+          ]
+        },
+        "身份证": {
+          "msgid": "身份证",
+          "comments": {
+            "reference": "src/pages/ApplyCardList/index.tsx:77\nsrc/pages/ApplyCardList/index.tsx:101"
+          },
+          "msgstr": [
+            "ID card"
+          ]
+        },
+        "护照": {
+          "msgid": "护照",
+          "comments": {
+            "reference": "src/pages/ApplyCardList/index.tsx:77\nsrc/pages/ApplyCardList/index.tsx:101"
+          },
+          "msgstr": [
+            "passport"
+          ]
+        },
+        "其他参赛者报名卡": {
+          "msgid": "其他参赛者报名卡",
+          "comments": {
+            "reference": "src/pages/ApplyCardList/index.tsx:90"
+          },
+          "msgstr": [
+            "Other entrant registration card"
+          ]
+        },
+        "比赛报名": {
+          "msgid": "比赛报名",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:35"
+          },
+          "msgstr": [
+            "Registration"
+          ]
+        },
+        "选择参赛项目": {
+          "msgid": "选择参赛项目",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:83"
+          },
+          "msgstr": [
+            "Select an entry"
+          ]
+        },
+        "公里": {
+          "msgid": "公里",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:99\nsrc/pages/MatchDetail/index.tsx:203"
+          },
+          "msgstr": [
+            "Kilometer"
+          ]
+        },
+        "开跑": {
+          "msgid": "开跑",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:100\nsrc/pages/MatchDetail/index.tsx:204"
+          },
+          "msgstr": [
+            "Start running"
+          ]
+        },
+        "已报满": {
+          "msgid": "已报满",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:110"
+          },
+          "msgstr": [
+            "Reported full"
+          ]
+        },
+        "自选服务": {
+          "msgid": "自选服务",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:141\nsrc/pages/OrderDetail/index.tsx:125"
+          },
+          "msgstr": [
+            "Optional service"
+          ]
+        },
+        "库存不足": {
+          "msgid": "库存不足",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:178\nsrc/pages/ApplyDetail/index.tsx:287"
+          },
+          "msgstr": [
+            "Inventory shortage"
+          ]
+        },
+        "参赛者信息": {
+          "msgid": "参赛者信息",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:197\nsrc/pages/OrderDetail/index.tsx:168"
+          },
+          "msgstr": [
+            "Participant information"
+          ]
+        },
+        "我已阅读并接受": {
+          "msgid": "我已阅读并接受",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:251"
+          },
+          "msgstr": [
+            "I have read and accept"
+          ]
+        },
+        "《平台服务协议》": {
+          "msgid": "《平台服务协议》",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:255"
+          },
+          "msgstr": [
+            "Platform Service Agreement"
+          ]
+        },
+        "每人限购 %d 份": {
+          "msgid": "每人限购 %d 份",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:284"
+          },
+          "msgstr": [
+            "Limited to %d per person"
+          ]
+        },
+        "请添加参赛者信息": {
+          "msgid": "请添加参赛者信息",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:305"
+          },
+          "msgstr": [
+            "Please add contestant information"
+          ]
+        },
+        "请选择一项参赛项目": {
+          "msgid": "请选择一项参赛项目",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:309"
+          },
+          "msgstr": [
+            "Please select an entry"
+          ]
+        },
+        "请阅读并接受《平台服务协议》": {
+          "msgid": "请阅读并接受《平台服务协议》",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:313"
+          },
+          "msgstr": [
+            "Please read and accept the Platform Services Agreement"
+          ]
+        },
+        "合计：": {
+          "msgid": "合计：",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:343\nsrc/pages/OrderInfo/index.tsx:103"
+          },
+          "msgstr": [
+            "total:"
+          ]
+        },
+        "立即支付": {
+          "msgid": "立即支付",
+          "comments": {
+            "reference": "src/pages/ApplyDetail/index.tsx:345\nsrc/pages/OrderInfo/index.tsx:105"
+          },
+          "msgstr": [
+            "pay immediately"
+          ]
+        },
+        "热评": {
+          "msgid": "热评",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:41"
+          },
+          "msgstr": [
+            "Hot review"
+          ]
+        },
+        "详情": {
+          "msgid": "详情",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:45"
+          },
+          "msgstr": [
+            "Details"
+          ]
+        },
+        "我跑过": {
+          "msgid": "我跑过",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:162"
+          },
+          "msgstr": [
+            "I ran over"
+          ]
+        },
+        "有 %s 人跑过": {
+          "msgid": "有 %s 人跑过",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:173"
+          },
+          "msgstr": [
+            "%s people ran"
+          ]
+        },
+        "官方网站：": {
+          "msgid": "官方网站：",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:181"
+          },
+          "msgstr": [
+            "Official website:"
+          ]
+        },
+        "比赛项目": {
+          "msgid": "比赛项目",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:196\nsrc/pages/OrderDetail/index.tsx:109\nsrc/pages/OrderInfo/index.tsx:85"
+          },
+          "msgstr": [
+            "Competition"
+          ]
+        },
+        "已报名": {
+          "msgid": "已报名",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:264"
+          },
+          "msgstr": [
+            "registered"
+          ]
+        },
+        "想跑": {
+          "msgid": "想跑",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:270"
+          },
+          "msgstr": [
+            "Want to run"
+          ]
+        },
+        "一键报名": {
+          "msgid": "一键报名",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:274"
+          },
+          "msgstr": [
+            "One-click registration"
+          ]
+        },
+        "报名已满": {
+          "msgid": "报名已满",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:314"
+          },
+          "msgstr": [
+            "Registration is full"
+          ]
+        },
+        "立即报名": {
+          "msgid": "立即报名",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:315"
+          },
+          "msgstr": [
+            "register now"
+          ]
+        },
+        "已经报名": {
+          "msgid": "已经报名",
+          "comments": {
+            "reference": "src/pages/MatchDetail/index.tsx:316"
+          },
+          "msgstr": [
+            "Already registered"
+          ]
+        },
+        "订单详情": {
+          "msgid": "订单详情",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:39"
+          },
+          "msgstr": [
+            "order details"
+          ]
+        },
+        "请在 %s 前完成支付，超时订单将失效哦": {
+          "msgid": "请在 %s 前完成支付，超时订单将失效哦",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:75"
+          },
+          "msgstr": [
+            "Please complete the payment before %s, the timeout order will expire."
+          ]
+        },
+        "去支付": {
+          "msgid": "去支付",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:77\nsrc/pages/OrderList/index.tsx:89"
+          },
+          "msgstr": [
+            "To pay"
+          ]
+        },
+        "取消订单": {
+          "msgid": "取消订单",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:78"
+          },
+          "msgstr": [
+            "cancel order"
+          ]
+        },
+        "订单编号：": {
+          "msgid": "订单编号：",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:83"
+          },
+          "msgstr": [
+            "Order number:"
+          ]
+        },
+        "项目与服务": {
+          "msgid": "项目与服务",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:104"
+          },
+          "msgstr": [
+            "Projects and services"
+          ]
+        },
+        "比赛时间：": {
+          "msgid": "比赛时间：",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:106\nsrc/pages/OrderList/index.tsx:69"
+          },
+          "msgstr": [
+            "Competing time:"
+          ]
+        },
+        "合计": {
+          "msgid": "合计",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:148"
+          },
+          "msgstr": [
+            "total"
+          ]
+        },
+        "订单信息": {
+          "msgid": "订单信息",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:193"
+          },
+          "msgstr": [
+            "order information"
+          ]
+        },
+        "订单编号": {
+          "msgid": "订单编号",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:198"
+          },
+          "msgstr": [
+            "Order number"
+          ]
+        },
+        "订单时间": {
+          "msgid": "订单时间",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:202"
+          },
+          "msgstr": [
+            "Order time"
+          ]
+        },
+        "订单类型": {
+          "msgid": "订单类型",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:206"
+          },
+          "msgstr": [
+            "Order Type"
+          ]
+        },
+        "该赛事不支持退款": {
+          "msgid": "该赛事不支持退款",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:225"
+          },
+          "msgstr": [
+            "This event does not support refunds"
+          ]
+        },
+        "该赛事不可转让名额": {
+          "msgid": "该赛事不可转让名额",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:233"
+          },
+          "msgstr": [
+            "Non-transferable places for the event"
+          ]
+        },
+        "删除订单": {
+          "msgid": "删除订单",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:244"
+          },
+          "msgstr": [
+            "Delete order"
+          ]
+        },
+        "订单取消成功": {
+          "msgid": "订单取消成功",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:256"
+          },
+          "msgstr": [
+            "Order cancelled successfully"
+          ]
+        },
+        "订单删除操作": {
+          "msgid": "订单删除操作",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:267"
+          },
+          "msgstr": [
+            "Order deletion"
+          ]
+        },
+        "订单删除后将不可恢复": {
+          "msgid": "订单删除后将不可恢复",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:267"
+          },
+          "msgstr": [
+            "Unrecoverable after order is deleted"
+          ]
+        },
+        "取消": {
+          "msgid": "取消",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:269"
+          },
+          "msgstr": [
+            "cancel"
+          ]
+        },
+        "确定": {
+          "msgid": "确定",
+          "comments": {
+            "reference": "src/pages/OrderDetail/index.tsx:273\nsrc/pages/ParticipatorInfo/index.tsx:249"
+          },
+          "msgstr": [
+            "determine"
+          ]
+        },
+        "确认报名信息": {
+          "msgid": "确认报名信息",
+          "comments": {
+            "reference": "src/pages/OrderInfo/index.tsx:25"
+          },
+          "msgstr": [
+            "Confirmation of registration information"
+          ]
+        },
+        "报名卡": {
+          "msgid": "报名卡",
+          "comments": {
+            "reference": "src/pages/OrderInfo/index.tsx:37"
+          },
+          "msgstr": [
+            "Registration card"
+          ]
+        },
+        "报名": {
+          "msgid": "报名",
+          "comments": {
+            "reference": "src/pages/OrderInfo/index.tsx:38"
+          },
+          "msgstr": [
+            "Sign up"
+          ]
+        },
+        "最后再确认下报名信息": {
+          "msgid": "最后再确认下报名信息",
+          "comments": {
+            "reference": "src/pages/OrderInfo/index.tsx:40"
+          },
+          "msgstr": [
+            "Finally confirm the registration information"
+          ]
+        },
+        "准备迎接挑战了么？": {
+          "msgid": "准备迎接挑战了么？",
+          "comments": {
+            "reference": "src/pages/OrderInfo/index.tsx:51"
+          },
+          "msgstr": [
+            "Are you ready for the challenge?"
+          ]
+        },
+        "加油！": {
+          "msgid": "加油！",
+          "comments": {
+            "reference": "src/pages/OrderInfo/index.tsx:53"
+          },
+          "msgstr": [
+            "Come on!"
+          ]
+        },
+        "请确认您的项目与服务": {
+          "msgid": "请确认您的项目与服务",
+          "comments": {
+            "reference": "src/pages/OrderInfo/index.tsx:81"
+          },
+          "msgstr": [
+            "Please confirm your project and service"
+          ]
+        },
+        "我的订单": {
+          "msgid": "我的订单",
+          "comments": {
+            "reference": "src/pages/OrderList/index.tsx:27"
+          },
+          "msgstr": [
+            "My Order"
+          ]
+        },
+        "暂无订单": {
+          "msgid": "暂无订单",
+          "comments": {
+            "reference": "src/pages/OrderList/index.tsx:35"
+          },
+          "msgstr": [
+            "No order"
+          ]
+        },
+        "报名比赛的订单都会存在这里哦！": {
+          "msgid": "报名比赛的订单都会存在这里哦！",
+          "comments": {
+            "reference": "src/pages/OrderList/index.tsx:36"
+          },
+          "msgstr": [
+            "Orders for the registration contest will exist here!"
+          ]
+        },
+        "下单时间：": {
+          "msgid": "下单时间：",
+          "comments": {
+            "reference": "src/pages/OrderList/index.tsx:53"
+          },
+          "msgstr": [
+            "order time:"
+          ]
+        },
+        "超时未支付，订单关闭": {
+          "msgid": "超时未支付，订单关闭",
+          "comments": {
+            "reference": "src/pages/OrderList/index.tsx:57"
+          },
+          "msgstr": [
+            "Timeout not paid, order closed"
+          ]
+        },
+        "比赛项目：": {
+          "msgid": "比赛项目：",
+          "comments": {
+            "reference": "src/pages/OrderList/index.tsx:72"
+          },
+          "msgstr": [
+            "Competition items:"
+          ]
+        },
+        "自选服务：": {
+          "msgid": "自选服务：",
+          "comments": {
+            "reference": "src/pages/OrderList/index.tsx:77"
+          },
+          "msgstr": [
+            "Optional service:"
+          ]
+        },
+        "添加参赛者": {
+          "msgid": "添加参赛者",
+          "comments": {
+            "reference": "src/pages/ParticipatorInfo/index.tsx:33"
+          },
+          "msgstr": [
+            "Add contestants"
+          ]
+        },
+        "完善报名信息": {
+          "msgid": "完善报名信息",
+          "comments": {
+            "reference": "src/pages/ParticipatorInfo/index.tsx:33"
+          },
+          "msgstr": [
+            "Improve registration information"
+          ]
+        }
+      },
+      "placeholder": {
+        "请输入姓名": {
+          "msgid": "请输入姓名",
+          "msgctxt": "placeholder",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:166"
+          },
+          "msgstr": [
+            "Please type in your name"
+          ]
+        },
+        "请选择": {
+          "msgid": "请选择",
+          "msgctxt": "placeholder",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:215\nsrc/pages/ApplyCard/index.tsx:278\nsrc/pages/ApplyCard/index.tsx:306\nsrc/pages/ApplyCard/index.tsx:345\nsrc/pages/ApplyCard/index.tsx:362\nsrc/pages/ApplyCard/index.tsx:408"
+          },
+          "msgstr": [
+            "please choose"
+          ]
+        },
+        "请选择出生日期": {
+          "msgid": "请选择出生日期",
+          "msgctxt": "placeholder",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:245"
+          },
+          "msgstr": [
+            "Please select the date of birth"
+          ]
+        },
+        "请选择国籍": {
+          "msgid": "请选择国籍",
+          "msgctxt": "placeholder",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:262"
+          },
+          "msgstr": [
+            "Please select nationality"
+          ]
+        },
+        "请输入现居住地址": {
+          "msgid": "请输入现居住地址",
+          "msgctxt": "placeholder",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:294"
+          },
+          "msgstr": [
+            "Please enter your current residence address"
+          ]
+        },
+        "请输入手机号": {
+          "msgid": "请输入手机号",
+          "msgctxt": "placeholder",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:322\nsrc/pages/ApplyCard/index.tsx:424"
+          },
+          "msgstr": [
+            "Please enter phone number"
+          ]
+        },
+        "请输入联系邮箱": {
+          "msgid": "请输入联系邮箱",
+          "msgctxt": "placeholder",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:332"
+          },
+          "msgstr": [
+            "Please enter the contact email address"
+          ]
+        },
+        "请选择联系人关系": {
+          "msgid": "请选择联系人关系",
+          "msgctxt": "placeholder",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:379"
+          },
+          "msgstr": [
+            "Please select a contact relationship"
+          ]
+        },
+        "请输入紧急联系人姓名": {
+          "msgid": "请输入紧急联系人姓名",
+          "msgctxt": "placeholder",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:396"
+          },
+          "msgstr": [
+            "Please enter an emergency contact name"
+          ]
+        }
+      },
+      "表单域": {
+        "姓名＊": {
+          "msgid": "姓名＊",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:171"
+          },
+          "msgstr": [
+            "Name*"
+          ]
+        },
+        "是本人": {
+          "msgid": "是本人",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:185"
+          },
+          "msgstr": [
+            "I am"
+          ]
+        },
+        "性别": {
+          "msgid": "性别",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:190"
+          },
+          "msgstr": [
+            "gender"
+          ]
+        },
+        "证件类型": {
+          "msgid": "证件类型",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:225"
+          },
+          "msgstr": [
+            "type of certificate"
+          ]
+        },
+        "证件号码": {
+          "msgid": "证件号码",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:236"
+          },
+          "msgstr": [
+            "ID number"
+          ]
+        },
+        "出生日期": {
+          "msgid": "出生日期",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:254"
+          },
+          "msgstr": [
+            "date of birth"
+          ]
+        },
+        "国籍": {
+          "msgid": "国籍",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:272"
+          },
+          "msgstr": [
+            "Country of Citizenship"
+          ]
+        },
+        "省市地区": {
+          "msgid": "省市地区",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:288"
+          },
+          "msgstr": [
+            "Provinces and cities"
+          ]
+        },
+        "详细地址": {
+          "msgid": "详细地址",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:299"
+          },
+          "msgstr": [
+            "Address"
+          ]
+        },
+        "手机号＊": {
+          "msgid": "手机号＊",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:303"
+          },
+          "msgstr": [
+            "phone number*"
+          ]
+        },
+        "邮箱": {
+          "msgid": "邮箱",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:337"
+          },
+          "msgstr": [
+            "mailbox"
+          ]
+        },
+        "血型": {
+          "msgid": "血型",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:356"
+          },
+          "msgstr": [
+            "blood group"
+          ]
+        },
+        "衣服尺寸": {
+          "msgid": "衣服尺寸",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:373"
+          },
+          "msgstr": [
+            "cloth size"
+          ]
+        },
+        "联系人关系": {
+          "msgid": "联系人关系",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:390"
+          },
+          "msgstr": [
+            "Contact relationship"
+          ]
+        },
+        "紧急联系人": {
+          "msgid": "紧急联系人",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:401"
+          },
+          "msgstr": [
+            "emergency contact"
+          ]
+        },
+        "联系人手机": {
+          "msgid": "联系人手机",
+          "msgctxt": "表单域",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:405"
+          },
+          "msgstr": [
+            "Contact phone"
+          ]
+        }
+      },
+      "placehodler": {
+        "请输入证件号码": {
+          "msgid": "请输入证件号码",
+          "msgctxt": "placehodler",
+          "comments": {
+            "reference": "src/pages/ApplyCard/index.tsx:231"
+          },
+          "msgstr": [
+            "Please enter the ID number"
+          ]
+        }
+      }
+    }
+  }
+}
