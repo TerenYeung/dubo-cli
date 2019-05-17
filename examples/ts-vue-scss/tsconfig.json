@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "removeComments": false,
+    "rootDirs": ["./src"],
+    "baseUrl": "./src",
+    "paths": {
+    },
+    "alwaysStrict": true,
+    "allowJs": true,
+    "noUnusedLocals": true,
+    "importHelpers": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "esnext",
+      "es7",
+      "es6",
+      "es5",
+      "es2015.promise",
+      "es2015.generator",
+      "dom"
+    ],
+    "skipLibCheck": true,
+    "typeRoots": ["node", "node_modules/@types"]
+  },
+  "linterOptions": {
+    "exclude": [
+        "bin",
+        "src/lib/plugins/*"
+    ]
+  }
+}

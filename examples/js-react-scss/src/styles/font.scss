@@ -1,0 +1,10 @@
+// variables defined at webpack style loaders
+$subPath: "";
+@if $isProd == "true" {
+  $subPath: "";
+} @else {
+  $subPath: "/dist";
+}
+
+// @import url("#{$assetsPath}font#{$subPath}/fzjin.css");
+
