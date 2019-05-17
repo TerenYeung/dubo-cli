@@ -1,3 +1,11 @@
+## 1.0.3
+
+`2019-05-17`
+
+- ⚡️ Replace logo of welcome page.
+
+- 🐞 Fixed up bug that components/@shared don't exist when initializing template.
+
 ## 1.0.2
 
 `2019-05-16`
