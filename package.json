@@ -1,6 +1,6 @@
 {
   "name": "dubo-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Dubo CLI is the Standard Tooling for Mobile Web Development.",
   "main": "index.js",
   "bin": "bin/index.js",
