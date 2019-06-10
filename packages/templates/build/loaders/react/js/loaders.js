@@ -22,7 +22,7 @@ const getStyleRule = (
         setLoaderSourceMap("css-loader", {}, opt.isProd),
         setLoaderSourceMap("postcss-loader", {
           plugins: () => [require('autoprefixer')({
-            'browsers': ['> 1%', 'last 5 versions']
+            'overrideBrowserslist': ['> 1%', 'last 5 versions']
           })],
         }, opt.isProd)
       ]
@@ -33,7 +33,7 @@ const getStyleRule = (
         setLoaderSourceMap("css-loader", {}, opt.isProd),
         setLoaderSourceMap("postcss-loader", {
           plugins: () => [require('autoprefixer')({
-            'browsers': ['> 1%', 'last 5 versions']
+            'overrideBrowserslist': ['> 1%', 'last 5 versions']
           })],
         }, opt.isProd),
         setLoaderSourceMap(
@@ -55,7 +55,7 @@ const getStyleRule = (
         setLoaderSourceMap("css-loader", {}, opt.isProd),
         setLoaderSourceMap("postcss-loader", {
           plugins: () => [require('autoprefixer')({
-            'browsers': ['> 1%', 'last 5 versions']
+            'overrideBrowserslist': ['> 1%', 'last 5 versions']
           })],
         }, opt.isProd),
         setLoaderSourceMap(

@@ -1,3 +1,11 @@
+## 1.0.5
+
+`2019-06-10`
+
+- ⚡️ Update webpack plugin configuration
+
+- ⚡️ Remove query-string library.
+
 ## 1.0.4
 
 `2019-05-21`

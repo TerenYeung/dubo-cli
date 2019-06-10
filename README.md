@@ -10,7 +10,7 @@
 
 Dubo CLI is the Standard Tooling for Mobile Web Development.
 
- ![languuage](https://img.shields.io/badge/language-node-gcf.svg) [![npm package](https://img.shields.io/npm/v/dubo-cli.svg?style=flat-square)](https://www.npmjs.com/package/dubo-cli) [![NPM downloads](http://img.shields.io/npm/dm/dubo-cli.svg?style=flat-square)](https://www.npmjs.com/package/dubo-cli) ![license](https://img.shields.io/badge/license-Anti%20996-99ccff.svg)
+ ![language](https://img.shields.io/badge/language-node-gcf.svg) [![npm package](https://img.shields.io/npm/v/dubo-cli.svg?style=flat-square)](https://www.npmjs.com/package/dubo-cli) [![NPM downloads](http://img.shields.io/npm/dm/dubo-cli.svg?style=flat-square)](https://www.npmjs.com/package/dubo-cli) ![license](https://img.shields.io/badge/license-Anti%20996-99ccff.svg)
 
 
 </div>
