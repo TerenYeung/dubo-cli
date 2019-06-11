@@ -2,6 +2,7 @@
 const
   chalk = require('chalk'),
   semver = require('semver'),
+  request = require('request'),
   version = require('../package.json').version,
   program = require('commander'),
   minimist = require('minimist'),
@@ -9,6 +10,7 @@ const
   createPage = require('../packages/commands/createPage'),
   createComponent = require('../packages/commands/createComponent'),
   pull = require('../packages/commands/pull'),
+  ora = require('ora'),
   config = require('../packages/commands/config');
 
 // 检查Node版本
@@ -21,10 +23,36 @@ if (!semver.gte(process.version, '9.0.0')) {
   )
 }
 
+// check version
+function checkVersion(done) {
+  const spinner = ora({
+    text: chalk.green(`checking version...`),
+  }).start();
+
+  request({
+    url: 'https://registry.npmjs.org/dubo-cli',
+    timeout: 1000
+  }, (err, res, body) => {
+    spinner.stop();
+    if (!err & res.statusCode === 200) {
+      const latestVersion = JSON.parse(body)['dist-tags'].latest
+      const localVersion = version
+      if (semver.lt(localVersion, latestVersion)) {
+        console.log(chalk.yellow('  A newer version of dubo-cli is available.'))
+        console.log()
+        console.log('  latest:    ' + chalk.green(latestVersion))
+        console.log('  installed: ' + chalk.red(localVersion))
+        console.log()
+      }
+    }
+    done()
+  })
+}
+
 function help() {
   console.log('')
   console.log(' How to use:')
-  console.log(` If you want to use ${chalk.cyan('imgcook')}, you need run ${chalk.yellow('dubo config set')} to init config folder in first time`)
+  console.log(` If you want to use ${chalk.cyan('imgcook')}, you need run ${chalk.yellow('dubo config set')} to init config folder at first time. Command dubo equals dubo-cli.`)
   console.log()
   console.log('   - dubo config ls   查看配置')
   console.log('   - dubo config set  设置配置')
@@ -56,8 +84,10 @@ program
   .command('init [project]')
   .description('initialize dubo project')
   .action(project => {
-    const projectName = project || 'dubo';
-    initialize(projectName);
+    checkVersion(() => {
+      const projectName = project || 'dubo';
+      initialize(projectName);
+    })
   })
 
 program
@@ -109,7 +139,7 @@ program
 
 program.parse(process.argv)
 
-// not cmd output help
+// no cmd output help
 if (!process.argv.slice(2).length) {
   program.outputHelp()
 }

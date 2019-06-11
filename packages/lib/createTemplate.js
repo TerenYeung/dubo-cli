@@ -43,12 +43,10 @@ function createTemplate(projectName) {
   inquirer
   .prompt(queryList)
   .then(answers => {
-    console.log(answers);
-
     const
       projectUrl = utils.resolve(projectName),
       buildUrl = utils.resolve('packages/templates/build'),
-      srcUrl = utils.resolve('packages/templates/src')
+      srcUrl = utils.resolve('packages/templates/src');
 
     spinner = ora({
       text: chalk.cyan(`project ${projectName} creating...`),

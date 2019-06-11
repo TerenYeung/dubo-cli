@@ -141,13 +141,6 @@ const config = async (value, option) => {
       JSON.stringify(configData, null, 2),
       'utf8'
     )
-
-    if (option.set === 'loaders') {
-      // set up loaders
-      console.log('set up loaders>>>>>', )
-      // const dirname = path.join(__dirname, '../');
-      // childProcess.execSync(`cd ${dirname} && npm install ${value}`);
-    }
   }
 
   if (value === 'remove') {
