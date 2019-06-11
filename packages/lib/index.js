@@ -1,7 +1,9 @@
 const
   path = require('path'),
   fs = require('fs'),
-  {execSync} = require('child_process')
+  {execSync} = require('child_process'),
+  os = require('os'),
+  request = require('request');
 
 const isExist = url => fs.existsSync(url);
 
@@ -108,6 +110,43 @@ const replace = ({
   fs.writeFileSync(dist, str);
 }
 
+const downloadImg = (url, lurl) => {
+  return new Promise(resolve => {
+    request(url)
+      .pipe(fs.createWriteStream(lurl))
+      .on('close', () => {
+        resolve()
+      })
+  })
+}
+
+const homedir = () => {
+  const
+    env = process.env,
+    home = env.HOME,
+    user = env.LOGNAME || env.USER || env.LNAME || env.USERNAME;
+
+  if (process.platform === 'win32') {
+    return env.USERPROFILE || env.HOMEDRIVE + env.HOMEPATH || home || null;
+  }
+
+  if (process.platform === 'darwin') {
+    return home || (user ? '/Users/' + user : null)
+  }
+
+  if (process.platform === 'linux') {
+    return (
+      home || (process.getuid() === 0 ? '/root' : user ? '/home/' + user : null)
+    )
+  }
+}
+
+const unique = (array) => {
+  return array.concat().sort().filter((item, index, err) => {
+    return !index || item !== array[index - 1]
+  })
+}
+
 module.exports = {
   isExist,
   resolve,
@@ -116,5 +155,8 @@ module.exports = {
   copyFile,
   copyFolder,
   copyFilesToFolder,
-  replace
+  replace,
+  homedir: typeof os.homedir === 'function' ? os.homedir : homedir,
+  unique,
+  downloadImg
 }

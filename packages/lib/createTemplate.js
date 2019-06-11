@@ -5,13 +5,16 @@ const
   inquirer = require('inquirer'),
   fs = require('fs'),
   path = require('path'),
-  figlet = require('figlet')
+  figlet = require('figlet'),
+  childProcess = require('child_process'),
+  fse = require('fs-extra');
 
 const
   queryMap = {
     lang: 'please select one language',
     ui: 'which UI Library you prefer',
     preprocessor: 'use one preprocessor for project',
+    imageCook: 'Use imgcook to generate template and style code from sketch or ps ?'
   }
 
 const queryList = [
@@ -40,12 +43,10 @@ function createTemplate(projectName) {
   inquirer
   .prompt(queryList)
   .then(answers => {
-    // console.log(answers);
-
     const
       projectUrl = utils.resolve(projectName),
       buildUrl = utils.resolve('packages/templates/build'),
-      srcUrl = utils.resolve('packages/templates/src')
+      srcUrl = utils.resolve('packages/templates/src');
 
     spinner = ora({
       text: chalk.cyan(`project ${projectName} creating...`),
