@@ -1,3 +1,10 @@
+## 1.0.5
+
+`2019-06-11`
+
+- 🌟 集成[imgcook](https://imgcook.taobao.org/)工作流获取从sketch或者photoshop产生的dsl代码
+- 🌟 初始化项目前检查dubo版本
+
 ## 1.0.4
 
 `2019-05-21`

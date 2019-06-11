@@ -1,3 +1,10 @@
+## 1.0.5
+
+`2019-06-11`
+
+- 🌟 Integrate [imgcook](https://imgcook.taobao.org/) workflow to get dsl code that generate from sketch or photoshop.
+- 🌟 Check Dubo version before init project.
+  
 ## 1.0.4
 
 `2019-05-21`

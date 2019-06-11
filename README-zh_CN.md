@@ -56,6 +56,15 @@ $ dubo-cli page user
 $ dubo-cli component modal
 ```
 
+从[imgcook](https://imgcook.taobao.org/)拉取代码
+
+```bash
+dubo-cli pull <moduleid> [--path <path> <imgPath>]
+```
+
+- moduleid 是保存项目时imgcook平台自动生成的页面id
+- path and imgPath. 选填, 默认当前路径, 相对路径.
+
 ## 🤜🏼 结构化目录
 
 以 [ts-react-scss](./examples/ts-react-scss) 为例, 目录结构信息如下：

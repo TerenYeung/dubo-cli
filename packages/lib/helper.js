@@ -47,10 +47,6 @@ const writeFile = (content, filePath, code) => {
   })
 }
 
-const rmFile = file => {
-  childProcess.execSync(`rm -rf ${file}`);
-}
-
 const userhome = homedir()
 const imgcookConfigPath = `${userhome}/.imgcook`
 const imgcookRc = `${imgcookConfigPath}/.imgcookrc`
@@ -81,7 +77,6 @@ function cleanArgs(cmd) {
 module.exports = {
   ajaxPost,
   writeFile,
-  rmFile,
   cliConfig,
   toHump,
   cleanArgs
