@@ -1,9 +1,12 @@
 {
   "name": "dubo-cli",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "Dubo CLI is the Standard Tooling for Mobile Web Development.",
   "main": "index.js",
-  "bin": "bin/index.js",
+  "bin": {
+    "dubo": "./bin/index.js",
+    "dubo-cli": "./bin/index.js"
+  },
   "scripts": {},
   "repository": {
     "type": "git",
@@ -29,7 +32,11 @@
     "chalk": "^2.4.2",
     "commander": "^2.20.0",
     "figlet": "^1.2.1",
+    "fs-extra": "^8.0.1",
     "inquirer": "^6.3.1",
-    "ora": "^3.4.0"
+    "minimist": "^1.2.0",
+    "ora": "^3.4.0",
+    "request": "^2.88.0",
+    "semver": "^6.0.0"
   }
 }

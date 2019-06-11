@@ -1,0 +1,99 @@
+const
+  ora = require('ora'),
+  path = require('path'),
+  chalk = require('chalk'),
+  fs = require('fs'),
+  spinner = ora(),
+  cwd = process.cwd(),
+  { ajaxPost, writeFile, cliConfig } = require('../lib/helper');
+
+const pull = async (value, option, otherOption) => {
+  let filePath = cwd
+  if (option.path) {
+    filePath = path.join(cwd, option.path)
+  }
+
+  // 图片地址
+  let imgPath = otherOption._.length >= 2 ? path.join(cwd, otherOption._.pop()) : filePath
+  if(!fs.existsSync(cliConfig.configFile)) {
+    console.log("请先设置配置，执行`dubo config set`")
+    const inquirer = require('inquirer')
+    inquirer.prompt({
+      type: "confirm",
+      message: "是否开始设置？",
+      name: "set"
+    }).then(async answers => {
+      if (answers.set) {
+        require('./config')('set', {});
+      }
+    })
+    return
+  }  
+  let configData = fs.readFileSync(cliConfig.configFile, 'UTF-8')
+  configData = JSON.parse(configData)
+  const url = cliConfig.module.url
+  const repoData = await ajaxPost(url, {
+    data: {
+      dsl_id: configData.dslId,
+      access_id: configData.accessId,
+      mod_id: value
+    }
+  });
+  if (repoData.data && repoData.data.code) {
+    const moduleData = repoData.data.moduleData
+    spinner.start(`「${moduleData.name}」module download...`)
+    let index = 0;
+    if (!fs.existsSync(filePath)) {
+      fs.mkdirSync(filePath);
+    }
+    let pullFileMsg = [];
+    for (const item of repoData.data.code.panelDisplay) {
+      try {
+        // execute loader
+        const loaders = configData.loaders
+        /**
+         * fileValue string
+         */
+        let fileValue = item.panelValue
+        if (loaders.length > 0) {
+          for (const loaderItem of loaders) {
+            fileValue = await require(loaderItem)(item, {
+              filePath,
+              imgPath,
+              index,
+              config: configData,
+              moduleData,
+            });
+          }
+        }
+        const plugin = configData.plugins;
+        if (plugin !== '') {
+          try {
+            backData = await require(plugin)(fileValue, {
+              filePath,
+              imgPath,
+              panelName: item.panelName,
+            });
+            pullFileMsg.push(backData);
+          } catch (error) {
+            console.log(chalk.red(error));
+          }
+        } else {
+          await writeFile(fileValue, `${filePath}/${item.panelName}`, 'utf8')
+        }
+      } catch (error) {
+        console.log(chalk.red(`execute code error: ${error}`))
+      }
+
+      index++;
+    }
+    spinner.succeed(`「${moduleData.name}」module download completed。`)
+  }
+};
+
+module.exports = (...args) => {
+  return pull(...args).catch(err => {
+    console.log(chalk.red(err))
+  })
+}
+  
