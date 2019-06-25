@@ -1,3 +1,9 @@
+## 1.1.1
+
+`2019-06-125`
+
+- 🐞 Fixed up bug that directory cannot be created in different OS.
+
 ## 1.1.0
 
 `2019-06-11`

@@ -21,31 +21,31 @@ function createComponent(componentName, config) {
   if (isReact) {
     if (isJS) {
       if (isScss) {
-        componentUrl = "/react/js:scss";
+        componentUrl = "/react/js_scss";
       } else {
-        componentUrl = "/react/js:less";
+        componentUrl = "/react/js_less";
       }
       suffix = ".jsx";
     } else {
       if (isScss) {
-        componentUrl = "/react/ts:scss";
+        componentUrl = "/react/ts_scss";
       } else {
-        componentUrl = "/react/ts:less";
+        componentUrl = "/react/ts_less";
       }
       suffix = ".tsx";
     }
   } else {
     if (isJS) {
       if (isScss) {
-        componentUrl = "/vue/js:scss";
+        componentUrl = "/vue/js_scss";
       } else {
-        componentUrl = "/vue/js:less";
+        componentUrl = "/vue/js_less";
       }
     } else {
       if (isScss) {
-        componentUrl = "/vue/ts:scss";
+        componentUrl = "/vue/ts_scss";
       } else {
-        componentUrl = "/vue/ts:less";
+        componentUrl = "/vue/ts_less";
       }
     }
     suffix = ".vue";

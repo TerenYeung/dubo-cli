@@ -175,31 +175,31 @@ function createInitPageFile(answer, projectName, cwd) {
   if (answer.isReact) {
     if (answer.isJS) {
       if (answer.isScss) {
-        pageUrl = '/react/js:scss';
+        pageUrl = '/react/js_scss';
       } else {
-        pageUrl = '/react/js:less';
+        pageUrl = '/react/js_less';
       }
       suffix = '.jsx';
     } else {
       if (answer.isScss) {
-        pageUrl = '/react/ts:scss';
+        pageUrl = '/react/ts_scss';
       } else {
-        pageUrl = '/react/ts:less';
+        pageUrl = '/react/ts_less';
       }
       suffix = '.tsx';
     }
   } else {
     if (answer.isJS) {
       if (answer.isScss) {
-        pageUrl = '/vue/js:scss';
+        pageUrl = '/vue/js_scss';
       } else {
-        pageUrl = '/vue/js:less';
+        pageUrl = '/vue/js_less';
       }
     } else {
       if (answer.isScss) {
-        pageUrl = '/vue/ts:scss';
+        pageUrl = '/vue/ts_scss';
       } else {
-        pageUrl = '/vue/ts:less';
+        pageUrl = '/vue/ts_less';
       }
     }
     suffix = '.vue';
@@ -222,31 +222,31 @@ function createInitComponent(answer, projectName, cwd) {
     if (answer.isReact) {
       if (answer.isJS) {
         if (answer.isScss) {
-          componentUrl = '/react/js:scss';
+          componentUrl = '/react/js_scss';
         } else {
-          componentUrl = '/react/js:less';
+          componentUrl = '/react/js_less';
         }
         suffix = '.jsx';
       } else {
         if (answer.isScss) {
-          componentUrl = '/react/ts:scss';
+          componentUrl = '/react/ts_scss';
         } else {
-          componentUrl = '/react/ts:less';
+          componentUrl = '/react/ts_less';
         }
         suffix = '.tsx';
       }
     } else {
       if (answer.isJS) {
         if (answer.isScss) {
-          componentUrl = '/vue/js:scss';
+          componentUrl = '/vue/js_scss';
         } else {
-          componentUrl = '/vue/js:less';
+          componentUrl = '/vue/js_less';
         }
       } else {
         if (answer.isScss) {
-          componentUrl = '/vue/ts:scss';
+          componentUrl = '/vue/ts_scss';
         } else {
-          componentUrl = '/vue/ts:less';
+          componentUrl = '/vue/ts_less';
         }
       }
       suffix = '.vue';

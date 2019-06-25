@@ -94,6 +94,7 @@
     "webpack": "4.28.4",
     "webpack-bundle-analyzer": "^3.1.0",
     "webpack-cli": "^3.3.0",
+    "upyun-webpack-plugin": "^1.0.0",
     "webpack-dev-server": "^3.2.1",
     "yargs": "^13.2.4",
     "workbox-webpack-plugin": "^4.3.1"

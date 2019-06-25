@@ -1,5 +1,6 @@
 const
   fs = require('fs'),
+  path = require('path'),
   env = process.env.NODE_ENV,
   isProd = process.env.NODE_ENV === 'production';
 
@@ -49,8 +50,8 @@ const prodConfig = {
     service: process.env.UPYUN_SERVICE || '',
     operator: process.env.UPYUN_OPERATOR || '',
     passwd: process.env.UPYUN_PASSWD || '',
-    remoteFilePath: '',                                 // 又拍云远程资源地址
-    filePath: ''                   // 又拍云本地资源地址
+    remoteFilePath: '/github',                                 // 又拍云远程资源地址
+    filePath: path.resolve(__dirname, './src/assets')                  // 又拍云本地资源地址
   },
 }
 

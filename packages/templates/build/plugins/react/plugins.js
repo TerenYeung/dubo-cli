@@ -14,7 +14,8 @@ const
   ImageminPlugin = require('imagemin-webpack-plugin').default,
   HtmlWebpackHarddiskPlugin = require('html-webpack-harddisk-plugin'),
   CleanWebpackPlugin = require('clean-webpack-plugin'),
-  UpyunUploadPlugin = require('./upyun-upload-webpack-plugin'),
+  // UpyunUploadPlugin = require('./upyun-upload-webpack-plugin'),
+  {UpyunUploadPlugin} = require('upyun-webpack-js'),
   CopyPlugin = require('copy-webpack-plugin'),
   FontminPlugin = require('./fontmin-webpack-plugin'),
   FontminText = fs.readFileSync(resolve('build/fontmin.txt')).toString('utf-8'),
@@ -130,9 +131,9 @@ if (config.isProd && checkFilesChange(resolve('src/assets/'), resolve('build/scr
     new UpyunUploadPlugin({
       serviceName: duboConfig.cdn.service,
       operatorName: duboConfig.cdn.operator,
-      password: duboConfig.cdn.passwd,
-      remoteFilePath: duboConfig.cdn.remoteFilePath,
-      filePath: duboConfig.cdn.filePath,
+      operatorPassword: duboConfig.cdn.passwd,
+      remotePath: duboConfig.cdn.remoteFilePath,
+      localPath: duboConfig.cdn.filePath,
   }),
   )
 }

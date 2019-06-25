@@ -21,31 +21,31 @@ function createPage(pageName, config) {
   if (isReact) {
     if (isJS) {
       if (isScss) {
-        pageUrl = "/react/js:scss";
+        pageUrl = "/react/js_scss";
       } else {
-        pageUrl = "/react/js:less";
+        pageUrl = "/react/js_less";
       }
       suffix = ".jsx";
     } else {
       if (isScss) {
-        pageUrl = "/react/ts:scss";
+        pageUrl = "/react/ts_scss";
       } else {
-        pageUrl = "/react/ts:less";
+        pageUrl = "/react/ts_less";
       }
       suffix = ".tsx";
     }
   } else {
     if (isJS) {
       if (isScss) {
-        pageUrl = "/vue/js:scss";
+        pageUrl = "/vue/js_scss";
       } else {
-        pageUrl = "/vue/js:less";
+        pageUrl = "/vue/js_less";
       }
     } else {
       if (isScss) {
-        pageUrl = "/vue/ts:scss";
+        pageUrl = "/vue/ts_scss";
       } else {
-        pageUrl = "/vue/ts:less";
+        pageUrl = "/vue/ts_less";
       }
     }
     suffix = ".vue";

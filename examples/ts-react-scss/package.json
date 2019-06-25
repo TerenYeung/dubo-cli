@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Dubo App",
   "main": "index.js",
-  "engines" : {
-    "node" : ">=10.8.0"
+  "engines": {
+    "node": ">=10.8.0"
   },
   "scripts": {
     "fontmin": "fontmin src/assets/font/src/* src/assets/font/dist",
@@ -32,7 +32,6 @@
     "@loadable/component": "^5.7.0",
     "babel-polyfill": "^6.26.0",
     "node-gettext": "^2.0.0",
-    "query-string": "^6.4.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
@@ -95,6 +94,7 @@
     "ts-loader": "^5.3.3",
     "typescript": "^3.4.1",
     "upyun-upload-webpack-plugin": "^1.0.4",
+    "upyun-webpack-plugin": "^1.0.0",
     "url-loader": "^1.1.2",
     "webpack": "4.28.4",
     "webpack-bundle-analyzer": "^3.3.2",
