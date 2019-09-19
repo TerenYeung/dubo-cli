@@ -1,3 +1,9 @@
+## 1.1.2
+
+`2019-09-19`
+
+- 🐞 Fixed up bug that upyun-webpack-js lib don't exist.
+
 ## 1.1.1
 
 `2019-06-125`
@@ -10,7 +16,7 @@
 
 - 🌟 Integrate [imgcook](https://imgcook.taobao.org/) workflow to get dsl code that generate from sketch or photoshop.
 - 🌟 Check Dubo version before init project.
-  
+
 ## 1.0.5
 
 `2019-06-10`
